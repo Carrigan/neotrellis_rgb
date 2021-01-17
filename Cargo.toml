@@ -1,0 +1,8 @@
+[package]
+name = "neotrellis-rgb"
+version = "0.1.0"
+authors = ["Brian Carrigan <brian@bcarrigan.com>"]
+edition = "2018"
+
+[dependencies]
+embedded-hal = "0.2.4"
