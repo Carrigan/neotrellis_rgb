@@ -1,8 +1,22 @@
 [package]
 name = "neotrellis-rgb"
+description = "Embedded Rust Driver for Adafruit RGB Neotrellis Board"
 version = "0.1.0"
 authors = ["Brian Carrigan <brian@bcarrigan.com>"]
+repository = "https://github.com/carrigan/neotrellis_rgb"
 edition = "2018"
+license = "MIT"
+categories = [
+    "embedded",
+    "hardware-support",
+    "no-std",
+]
+keywords = [
+    "embedded-hal-driver",
+    "adafruit",
+    "neotrellis"
+]
+readme = "readme.md"
 
 [dependencies]
 embedded-hal = "0.2.4"
